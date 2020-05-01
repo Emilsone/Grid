@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #000000;
+    height: 45vh;
+}
+header > .nav-head{
+   /* display: inline-block; */
+}
+.logo > h1{
+    color: white;
+    float:left;
+    padding-top: 10px;
+    padding-left: 9px;
+}
+li{
+    color: white;
+    float: right;
+    padding: 14px;
+    list-style-type: none;
+}
+.header > h1 , .lorem{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.div-text > img{
+ width: 100%;
+ height: auto;
+ 
+}
+.section-banner{
+    margin-top: 40px;
+}
+.div-text > h1{
+    width: 100%;
+    font-size: 20px;
+    padding: 25px;
+}
+.div-text > p{
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    padding-left:21px;
+    padding-top: -25px 0;
+}
+
+@media screen and (max-width:1024px){
+.container-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+}
